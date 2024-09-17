@@ -1,0 +1,12 @@
+.prosemirror .editor-container, .worldbuilding .editor-content {
+    font-size: large;
+  }
+  
+  .worldbuilding .item-list .item-name {
+    font-family: 'GWENT';
+    font-size: large;
+  }
+  
+  .worldbuilding .sheet-header h1.charname input {
+    font-family: 'GWENT';
+  }
