@@ -1,6 +1,3 @@
-// Import TypeScript modules
-import { registerSettings } from './lib/settings.js';
-
 /* ------------------------------------ */
 /* Initialize module					*/
 /* ------------------------------------ */
