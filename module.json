@@ -1,51 +1,44 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "oxy949-ten-candles-worldbuilding",
+  "title": "Ten Candles - Simple Worldbuilding Addon",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
-  },
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+      "scripts/module.js"
+  ],
+  "scripts": [
+      "scripts/lib/lib.js"
+  ],
+  "styles": [
+      "styles/module.css"
+  ],
+  "description": "Ten Candles is a zero-prep tabletop storytelling game designed for one-shot 2-4 hour sessions of tragic horror. It is best played with one GM and 3-5 players, by the light of ten tea light candles which provide atmosphere, act as a countdown timer for the game, and allow you to literally burn your character sheet away as you play.",
+  "authors": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "name": "Oxy949",
+      "email": "oxy949@gmail.com",
+      "url": "https://boosty.to/oxy949",
+      "discord": "oxy949",
+      "flags": {}
     }
-  ]
+  ],
+  "packs": [
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "oxy949-ten-candles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+    ]
+  }
 }
