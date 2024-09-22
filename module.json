@@ -64,6 +64,7 @@
       {
         "id": "oxy949-ten-candles",
         "type": "module",
+        "manifest": "https://github.com/Oxy949/oxy949-ten-candles/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]
