@@ -1,4 +1,4 @@
-# Ten Candles Setup Worldbuilding Setup
+# Ten Candles Simple Worldbuilding
 
 ## How to install 
 1. Copy `https://github.com/Oxy949/oxy949-ten-candles-worldbuilding/releases/latest/download/module.json` 
